@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Invest Here | Plaza del Pescador Commercial Units for Sale</title>
+  <meta name="description" content="Plaza del Pescador commercial units for sale in San José del Cabo. A thriving commercial district since 2012. Download the brochure, inventory and watch the video.">
+
+  <!-- Social sharing preview -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Invest Here | Plaza del Pescador">
+  <meta property="og:description" content="Commercial units for sale. A thriving commercial district since 2012.">
+  <meta property="og:image" content="assets/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌴</text></svg>">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="preload" as="image" href="assets/hero.jpg" imagesrcset="assets/hero-1024.jpg 1024w, assets/hero.jpg 2048w" imagesizes="100vw">
+
+  <style>
+    :root {
+      --ink: #000;
+      --paper: #fff;
+      --row: #f4f4f4;
+      --row-hover: #ebebeb;
+      --muted: #222;
+      --display: "Poppins", "Helvetica Neue", Arial, sans-serif;
+      --text: "Barlow", "Helvetica Neue", Arial, sans-serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--text);
+      -webkit-font-smoothing: antialiased;
+      padding-bottom: env(safe-area-inset-bottom, 0px);
+    }
+
+    .page { max-width: 1280px; margin: 0 auto; }
+
+    /* ---------- Header ---------- */
+    .intro {
+      text-align: center;
+      padding: calc(clamp(56px, 9vw, 110px) + env(safe-area-inset-top, 0px)) 20px clamp(52px, 12vw, 130px);
+    }
+    .intro h1 {
+      margin: 0;
+      font-family: var(--display);
+      font-weight: 700;
+      font-size: clamp(40px, 8.9vw, 104px);
+      line-height: 1;
+      letter-spacing: 0.12em;
+      margin-right: -0.12em; /* optically re-center tracked text */
+    }
+    .intro p {
+      margin: clamp(16px, 3vw, 30px) 0 0;
+      font-family: var(--display);
+      font-weight: 600;
+      font-size: clamp(11px, 1.45vw, 14px);
+      letter-spacing: 0.2em;
+      margin-right: -0.2em;
+      line-height: 1.6;
+    }
+    .intro p span { display: inline; }
+
+    /* ---------- Hero ---------- */
+    .hero {
+      position: relative;
+      margin: 0;
+      aspect-ratio: 790 / 490;
+      overflow: hidden;
+      background: #cfd6da;
+    }
+    .hero img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 50% 55%;
+      display: block;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: auto 0 0 0;
+      height: 35%;
+      background: linear-gradient(to top, rgba(0,0,0,.55), rgba(0,0,0,0));
+      pointer-events: none;
+    }
+    .hero figcaption {
+      position: absolute;
+      left: 0; right: 0;
+      bottom: clamp(16px, 3.2vw, 36px);
+      z-index: 1;
+      text-align: center;
+      color: #fff;
+      font-family: var(--display);
+      font-weight: 600;
+      font-size: clamp(10.5px, 1.4vw, 15px);
+      letter-spacing: 0.08em;
+      padding: 0 12px;
+      text-shadow: 0 1px 8px rgba(0,0,0,.35);
+    }
+
+    /* ---------- Downloads ---------- */
+    .files {
+      list-style: none;
+      margin: clamp(24px, 5vw, 40px) auto clamp(56px, 8vw, 96px);
+      padding: 0 16px;
+      max-width: calc(560px + 32px);
+      display: grid;
+      gap: 6px;
+    }
+    .files a, .files button {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      min-height: 44px;
+      padding: 12px 20px;
+      background: var(--row);
+      color: var(--ink);
+      text-decoration: none;
+      border: 0;
+      font: inherit;
+      cursor: pointer;
+      text-align: left;
+      transition: background-color .15s ease;
+    }
+    .files a:hover, .files button:hover { background: var(--row-hover); }
+    .files a:focus-visible, .files button:focus-visible,
+    .modal-close:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+    .file-name { font-weight: 600; font-size: 13.5px; }
+    .file-action {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-weight: 500;
+      font-size: 11.5px;
+      color: var(--muted);
+    }
+    .file-action svg { width: 13px; height: 13px; flex: none; }
+
+    /* ---------- Phone ---------- */
+    @media (max-width: 600px) {
+      .intro { padding-left: 16px; padding-right: 16px; }
+      .intro h1 { font-size: clamp(34px, 10.4vw, 48px); letter-spacing: 0.1em; margin-right: -0.1em; }
+      .intro p { font-size: 11.5px; letter-spacing: 0.16em; margin-right: -0.16em; }
+      .intro p span { display: block; }
+      .hero { aspect-ratio: 240 / 258; }
+      .hero img { object-position: 45% 50%; }
+      .hero figcaption { font-size: clamp(10px, 3vw, 12.5px); letter-spacing: 0.05em; }
+      .files { gap: 10px; }
+      .files a, .files button { min-height: 70px; padding: 16px 18px; }
+      .file-name { font-size: 16px; }
+      .file-action { font-size: 14px; gap: 8px; }
+      .file-action svg { width: 16px; height: 16px; }
+    }
+
+    /* ---------- Video modal ---------- */
+    .modal {
+      position: fixed; inset: 0; z-index: 50;
+      display: none;
+      align-items: center; justify-content: center;
+      padding: calc(56px + env(safe-area-inset-top, 0px)) 16px calc(24px + env(safe-area-inset-bottom, 0px));
+      background: rgba(0,0,0,.88);
+    }
+    .modal.open { display: flex; }
+    .modal-inner { width: min(1100px, 100%); }
+    .video-frame { position: relative; aspect-ratio: 16 / 9; background: #000; }
+    .video-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+    .modal-close {
+      position: absolute;
+      top: calc(12px + env(safe-area-inset-top, 0px)); right: 12px;
+      width: 40px; height: 40px;
+      border: 0; background: transparent; color: #fff; cursor: pointer;
+      display: grid; place-items: center;
+    }
+    .modal-close svg { width: 24px; height: 24px; }
+    .modal-link {
+      display: inline-block; margin-top: 14px;
+      color: #fff; font-size: 14px; font-weight: 500;
+    }
+    @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="intro">
+      <h1>INVEST HERE</h1>
+      <p><span>PLAZA DEL PESCADOR</span> <span>COMMERCIAL UNITS FOR SALE</span></p>
+    </header>
+
+    <figure class="hero">
+      <img
+        src="assets/hero.jpg"
+        srcset="assets/hero-1024.jpg 1024w, assets/hero.jpg 2048w"
+        sizes="100vw"
+        width="2048" height="1151"
+        alt="Aerial view of Plaza del Pescador along San José avenue, San José del Cabo">
+      <figcaption>A THRIVING COMMERCIAL DISTRICT SINCE 2012</figcaption>
+    </figure>
+
+    <ul class="files">
+      <li>
+        <a href="assets/Plaza-del-Pescador-Brochure-2026.pdf" download="Plaza-del-Pescador-Brochure-2026.pdf">
+          <span class="file-name">Brochure (pdf)</span>
+          <span class="file-action">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg>
+            Download
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="assets/Plaza-del-Pescador-Inventory.pdf" download="Plaza-del-Pescador-Inventory.pdf">
+          <span class="file-name">Inventory (pdf)</span>
+          <span class="file-action">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg>
+            Download
+          </span>
+        </a>
+      </li>
+      <li>
+        <!-- Opens the YouTube video in a player on the page; falls back to YouTube if JavaScript is off -->
+        <a href="https://www.youtube.com/watch?v=4zl1yNpvyq8" id="video-link" target="_blank" rel="noopener">
+          <span class="file-name">Video</span>
+          <span class="file-action">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg>
+            Download
+          </span>
+        </a>
+      </li>
+    </ul>
+  </main>
+
+  <div class="modal" id="video-modal" role="dialog" aria-modal="true" aria-label="Plaza del Pescador video">
+    <button class="modal-close" id="video-close" aria-label="Close video">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg>
+    </button>
+    <div class="modal-inner">
+      <div class="video-frame" id="video-frame"></div>
+      <a class="modal-link" href="https://www.youtube.com/watch?v=4zl1yNpvyq8" target="_blank" rel="noopener">Watch on YouTube</a>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      var VIDEO_ID = "4zl1yNpvyq8";
+      var link = document.getElementById("video-link");
+      var modal = document.getElementById("video-modal");
+      var frame = document.getElementById("video-frame");
+      var closeBtn = document.getElementById("video-close");
+
+      function open(e) {
+        e.preventDefault();
+        frame.innerHTML = '<iframe src="https://www.youtube-nocookie.com/embed/' + VIDEO_ID +
+          '?autoplay=1&rel=0&playsinline=1" title="Plaza del Pescador video" ' +
+          'allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>';
+        modal.classList.add("open");
+        document.body.style.overflow = "hidden";
+        closeBtn.focus();
+      }
+      function close() {
+        modal.classList.remove("open");
+        frame.innerHTML = ""; // stops playback
+        document.body.style.overflow = "";
+        link.focus();
+      }
+      link.addEventListener("click", open);
+      closeBtn.addEventListener("click", close);
+      modal.addEventListener("click", function (e) { if (e.target === modal) close(); });
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" && modal.classList.contains("open")) close();
+      });
+    })();
+  </script>
+</body>
+</html>
